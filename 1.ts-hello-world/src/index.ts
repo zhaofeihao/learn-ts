@@ -1,3 +1,5 @@
+import './test.ts';
+
 let hello: string = 'Hello TypeScript';
 
 // document.querySelector('#app').innerHTML = hello;   
