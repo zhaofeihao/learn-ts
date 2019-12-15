@@ -14,7 +14,7 @@ class Javascript {
     javascript: any
 }
 
-// 每一个 lang 都需要加类型断言才不会报错
+// 每一个 lang 都需要加类型断言才不会报错,很麻烦
 function getLanguage(type: Type) {
     let lang = type === Type.Strong ? new Java() : new Javascript();
     if ((lang as Java).helloJava) {
